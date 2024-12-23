@@ -8,7 +8,7 @@ Para iniciar el proyecto es necesario realizar los siguientes pasos del proceso 
 
   ```nvm use 23.3```
   ```npm install```
- ``` npm run dev```
+  ``` npm run dev```
 
 Consideraciones:
   node version: 23.3
