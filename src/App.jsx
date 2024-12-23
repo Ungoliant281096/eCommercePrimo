@@ -1,17 +1,15 @@
 // import { useState } from 'react'
-import '../app/features/Pages/Login/index'
-
-import './App.css'
+import { Login } from '../app/features/Pages/Login/Index';
+import './App.css';
 
 function App() {
-
   return (
     <>
       <div>
-        <p>Hola mundo!</p>
+        <Login />
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
