@@ -6,9 +6,9 @@ Este proyecto representa el backend desarrollado con Node y el frontend desarrol
 
 Para iniciar el proyecto es necesario realizar los siguientes pasos del proceso de integración al proyecto.
 
-  nvm use 23.3
-  npm install
-  npm run dev
+  ```nvm use 23.3```
+  ```npm install```
+ ``` npm run dev```
 
 Consideraciones:
   node version: 23.3
