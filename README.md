@@ -1,8 +1,15 @@
-# React + Vite
+Proyecto React + Vite para el FrontEnd
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una pagina de comercio electrónico estilo CRUD con pantallas de gestión de inventarios del lado del usuario y carritos de compras del lado del cliente.
 
-Currently, two official plugins are available:
+Este proyecto representa el backend desarrollado con Node y el frontend desarrollado con React + Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Para iniciar el proyecto es necesario realizar los siguientes pasos del proceso de integración al proyecto.
+
+  nvm use 23.3
+  npm install
+  npm run dev
+
+Consideraciones:
+  node version: 23.3
+  
