@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import './LoginForm.css';
+
 
 const LoginForm = () => {
   const [usuario, setUsuario] = useState('');
@@ -29,4 +31,4 @@ const LoginForm = () => {
   );
 };
 
-export default LoginForm;
+export default LoginForm; 
