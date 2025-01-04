@@ -6,8 +6,8 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/login': 'http://localhost:1717', // Reemplazar con la URL del backend si es diferente
-      '/registro': 'http://localhost:1717', // Reemplazar con la URL del backend si es diferente
+      '/BLogin': 'http://localhost:1717/', // Reemplazar con la URL del backend si es diferente
+      '/BRegistro': 'http://localhost:1717/', // Reemplazar con la URL del backend si es diferente
     },
   },
 })

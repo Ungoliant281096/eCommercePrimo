@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import './RegisterForm.css';
 
 const RegisterForm = () => {
   const [usuario, setUsuario] = useState('');
@@ -10,7 +11,7 @@ const RegisterForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('/registro', { usuario, contraseña });
+      const response = await axios.post('/BRegistro', { usuario, contraseña });
       alert(response.data.mensaje); // Mostrar mensaje de registro exitoso
       navigate('/login');
     } catch (error) {

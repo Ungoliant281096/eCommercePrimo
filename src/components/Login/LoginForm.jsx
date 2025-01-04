@@ -3,7 +3,6 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import './LoginForm.css';
 
-
 const LoginForm = () => {
   const [usuario, setUsuario] = useState('');
   const [contraseña, setContraseña] = useState('');
@@ -12,7 +11,7 @@ const LoginForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('/login', { usuario, contraseña }); // Usar la ruta relativa /login
+      const response = await axios.post('/BLogin', { usuario, contraseña }); // Usar la ruta relativa /login
       localStorage.setItem('token', response.data.token);
       navigate('/perfil'); // Redirigir al perfil después del login exitoso
     } catch (error) {
